@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>pl.cyfronet.eosc-search</groupId>
-  <artifactId>eosc-search.spark</artifactId>
+  <artifactId>eosc-search-spark</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <properties>
@@ -26,13 +26,13 @@
   <dependencies>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-core_2.10</artifactId>
-      <version>1.6.0-cdh5.16.2</version>
+      <artifactId>spark-core_2.11</artifactId>
+      <version>2.4.0.cloudera2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-sql_2.10</artifactId>
-      <version>1.6.0-cdh5.16.2</version>
+      <artifactId>spark-sql_2.11</artifactId>
+      <version>2.4.0.cloudera2</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
